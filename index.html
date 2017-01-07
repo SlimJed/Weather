@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather</title>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css'>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+	<div class="container">
+		<div class="centerBlock">
+			<div class="row">
+				<h1 class="center">Getting location and Weather via "openweathermap" API and "ip-api.com" API via the user's IP address</h1>
+				<hr>
+			</div>
+			<div class="row">
+				<div class="card center">
+					<h2 class="location"><i class="fa fa-location-arrow"></i><span id="location"> Loading location </span></h2>
+					<h5>Click button below to toggle between temperature</h5>
+					<button class="temp btn btn-primary" id="tempfar">Loading°F</button>
+			        <button class="temp btn btn-primary" id="tempcel">Loading°C</button>
+			        <br>
+			        <h4 >The weather is <span id="sky">N/A</span></h4>
+        			<h1><span id="tempimg"><i id="timg" class="wi wi-na"></i></span></h1>
+         		</div>
+			</div>
+			<div class="row">
+				<div class="navbar navbar-default navbar-fixed-bottom">
+					<div class="container">
+						<footer>
+							<h5 class="center">
+								Designed and Coded by <a href="https://github.com/SlimJed">Omadoye Jed</a>.	
+							</h5>
+						</footer>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js'></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
